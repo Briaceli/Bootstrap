@@ -2,10 +2,46 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Page title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap 1</title>
+    <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
   </head>
   <body>
-    <h1>Work</h1>
+    <h1>Bootstrap</h1>
+    <!-- Container provides padding around everything. Container fluid makes
+    everything but up on the sides of the screen. Also adds line under title.-->
+    <div class="container">
+      <div class="page-header"><h1>Bootstrap Mock Site</h1></div>
+    </div>
+    <div class="jumbotron">
+      <!-- Jumbotron enlarges fonts and defaults everything to be inside a grey box. (You can change the color later) Used outside of a container it will fill the total width of screen-->
+      <p>
+        I am excited to relearn everything about Bootstrap. It is one of my
+        favorite programs. I feel like I am learning a lot by watching this
+        tutorial.
+      </p>
+      <p>
+        <!-- Different type of button classes automaticaly change the size and shape of your buttons-->
+        <a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
+      <button type="submit" class="btn btn-danger" role="button">Button</button>
+    <input type="button" value="Info" class="btn btn-info"></button>
+    <button type="submit" class="btn btn-primary btn-sm">Primary</button>
+    <button type="submit" class="btn btn-success btn-xs">Success</button>
+    <button type="submit" class="btn btn-warning btn-lg">Warning</button>
+    <button type="submit" class="btn btn-link btn-lg">Link</button> <!--Links should also be called buttons-->
+  <button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>  <!--Disable buttons-->
+ <a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a> <!--Disable links-->
+ <!--Button Groups-->
+ <div class="btn-group btn-group-lg" role="group">
+   <button type="button" class="btn btn-default">Small</button>
+   <button type="button" class="btn btn-default">Medium</button>
+   <button type="button" class="btn btn-default">Large</button>
+  </p>
+ </div>
+</div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>
 </html>
